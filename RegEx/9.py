@@ -1,6 +1,6 @@
 import re
 
-snake_case = input()
+string = input()
 
-camelCase = re.sub(r"(?<!^)([A-Z])", r" \1", snake_case)
-print(camelCase)
+text = re.sub(r"(?<!^)([A-Z])", r" \1", string)
+print(text)
